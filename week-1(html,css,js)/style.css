@@ -1,0 +1,73 @@
+/* Base styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #1f2937;
+}
+
+/* Header section */
+header {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Main layout for products */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Individual product card */
+.product {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.product:hover {
+  transform: scale(1.03);
+}
+
+/* Image styling - updated */
+.product img {
+  width: 100%;
+  height: 200px;           /* Ensures uniform image height */
+  object-fit: cover;       /* Maintains aspect ratio and fills box */
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+button {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #059669;
+}
+
+/* Footer section */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e5e7eb;
+  margin-top: 2rem;
+}
